@@ -1,0 +1,746 @@
+[
+  {
+    "id": "desc:05e2d5a55e3e",
+    "evidence": "identical-description",
+    "evidenceValue": "washer300seriesssnas620flat10sz36od0204thkdashc10l",
+    "gpns": [
+      "07050564",
+      "1195143"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:1182c294053e",
+    "evidence": "identical-description",
+    "evidenceValue": "washersplitlock4",
+    "gpns": [
+      "07000737",
+      "07010215"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:12f6064dcef7",
+    "evidence": "identical-description",
+    "evidenceValue": "jdmscrewpanwasher440025in585mmmach510mm185mmphilzn",
+    "gpns": [
+      "1068812",
+      "1106558",
+      "1143662"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:22fcbed0a150",
+    "evidence": "identical-description",
+    "evidenceValue": "washerflatiso7089m12a2sst",
+    "gpns": [
+      "1063975",
+      "1250917"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:2cb57f54b8df",
+    "evidence": "identical-description",
+    "evidenceValue": "washerflatm3ss",
+    "gpns": [
+      "07129040",
+      "07131040"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:2da7927e586c",
+    "evidence": "identical-description",
+    "evidenceValue": "washerflatiso7089m16a4sst",
+    "gpns": [
+      "1063991",
+      "1064001"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize",
+      "threadSize"
+    ]
+  },
+  {
+    "id": "desc:48b6a586b134",
+    "evidence": "identical-description",
+    "evidenceValue": "screwmachinescrew440x635mmpanheadwwasherphillips4hswrch18arohs",
+    "gpns": [
+      "1157703",
+      "1230621"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:535f43a44d48",
+    "evidence": "identical-description",
+    "evidenceValue": "washer916largeflatzi",
+    "gpns": [
+      "07106696",
+      "07106700"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:5a2a71e0101a",
+    "evidence": "identical-description",
+    "evidenceValue": "188sspanheadscrewswithspringlockwasher632threadsize516long",
+    "gpns": [
+      "2006186",
+      "2006200"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:620d832ca13f",
+    "evidence": "identical-description",
+    "evidenceValue": "washerflatiso7089m16a2sst",
+    "gpns": [
+      "1063966",
+      "1063976"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize",
+      "threadSize"
+    ]
+  },
+  {
+    "id": "desc:68d640649248",
+    "evidence": "identical-description",
+    "evidenceValue": "jdmwasherc1215spw51x92128ni128nig00",
+    "gpns": [
+      "1146531",
+      "1172360"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:69c55cdffec3",
+    "evidence": "identical-description",
+    "evidenceValue": "jdmwasherspccws53x10x10c3uc1c3ucg00",
+    "gpns": [
+      "1146532",
+      "1172361"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:7159ca997a0f",
+    "evidence": "identical-description",
+    "evidenceValue": "jdmscrewpanm56mmmachphil2zinczincswrch18awwasher",
+    "gpns": [
+      "1143669",
+      "1143672"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:81ac9b268e15",
+    "evidence": "identical-description",
+    "evidenceValue": "washersplitlock716",
+    "gpns": [
+      "07000739",
+      "07010216"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:a9203e9c7a23",
+    "evidence": "identical-description",
+    "evidenceValue": "cagenuts1224c1050annealedhighcarbonspringsteelblackfinish1pc",
+    "gpns": [
+      "07090969",
+      "1013239-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:b1ece5e95916",
+    "evidence": "identical-description",
+    "evidenceValue": "cagenutsm5100pieces",
+    "gpns": [
+      "1024602",
+      "1119402"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:b2ef23a84dd6",
+    "evidence": "identical-description",
+    "evidenceValue": "fastenerwasher158instrutchannelsquarewasherzincplatedsteel38inrod",
+    "gpns": [
+      "1128985",
+      "1129110"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:bc26b8b7a9db",
+    "evidence": "identical-description",
+    "evidenceValue": "fastenernut158instrutchannelsquarewasherzincplatedsteel12inrod",
+    "gpns": [
+      "1128984",
+      "1129109"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:c2d0f8f19597",
+    "evidence": "identical-description",
+    "evidenceValue": "washersplitlock10",
+    "gpns": [
+      "07000738",
+      "07010214"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:d2ad7ef1518e",
+    "evidence": "identical-description",
+    "evidenceValue": "washerflatiso7089m16300hvsteelmagnicoated",
+    "gpns": [
+      "1055949",
+      "1055959"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize",
+      "threadSize"
+    ]
+  },
+  {
+    "id": "desc:d7e62d0ec0dc",
+    "evidence": "identical-description",
+    "evidenceValue": "washersquare18inthkx2in1116inholefor58inbolt1018steelhotdipgalvanized",
+    "gpns": [
+      "07049038",
+      "1203339-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:da63e95cc159",
+    "evidence": "identical-description",
+    "evidenceValue": "screwselftappingno2x14inpanheadphillipszstlrohs",
+    "gpns": [
+      "07087696",
+      "1001894-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:e2d4abffa02d",
+    "evidence": "identical-description",
+    "evidenceValue": "washer916xxlflatzi",
+    "gpns": [
+      "07106699",
+      "07106702"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:f39dd0215f86",
+    "evidence": "identical-description",
+    "evidenceValue": "rackscrews1032pilotpointphillipstrusshead75inlengthblackoxidewithwaxfinish1pc",
+    "gpns": [
+      "07090971",
+      "1017592-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:f4189ecf31af",
+    "evidence": "identical-description",
+    "evidenceValue": "fastenernut158instrutchannelspringnutzincplatedsteel38inthread",
+    "gpns": [
+      "1128986",
+      "1129111"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:f43c210f70ef",
+    "evidence": "identical-description",
+    "evidenceValue": "cagenuts1032hardenedsteelclearzincfinich1pc",
+    "gpns": [
+      "07090974",
+      "1178160"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "desc:f5bd6bef7205",
+    "evidence": "identical-description",
+    "evidenceValue": "flatwasher14",
+    "gpns": [
+      "07004180",
+      "07018356"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:/50NFWSCTZ",
+    "evidence": "shared-mpn",
+    "evidenceValue": "/50NFWSCTZ",
+    "gpns": [
+      "1123968",
+      "900403"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:/50NLMSCTZ",
+    "evidence": "shared-mpn",
+    "evidenceValue": "/50NLMSCTZ",
+    "gpns": [
+      "1123967",
+      "900404"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:0030150610",
+    "evidence": "shared-mpn",
+    "evidenceValue": "0030150610",
+    "gpns": [
+      "1129043",
+      "1149674"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:0030150710",
+    "evidence": "shared-mpn",
+    "evidenceValue": "0030150710",
+    "gpns": [
+      "1129046",
+      "1149677"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:0030160710",
+    "evidence": "shared-mpn",
+    "evidenceValue": "0030160710",
+    "gpns": [
+      "1129045",
+      "1149676"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:0100-1-002-01",
+    "evidence": "shared-mpn",
+    "evidenceValue": "0100-1-002-01",
+    "gpns": [
+      "07016397",
+      "07035144",
+      "07090971",
+      "1017592-01"
+    ],
+    "conflictingKeys": [
+      "finish"
+    ]
+  },
+  {
+    "id": "mpn:0200-1-002-01",
+    "evidence": "shared-mpn",
+    "evidenceValue": "0200-1-002-01",
+    "gpns": [
+      "07090974",
+      "1178160"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:139704",
+    "evidence": "shared-mpn",
+    "evidenceValue": "139704",
+    "gpns": [
+      "07014475",
+      "07014680"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:2073281",
+    "evidence": "shared-mpn",
+    "evidenceValue": "2073281",
+    "gpns": [
+      "07131723",
+      "1128463"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:2N25SPP13/AB",
+    "evidence": "shared-mpn",
+    "evidenceValue": "2N25SPP13/AB",
+    "gpns": [
+      "07087696",
+      "1001894-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:3232429001",
+    "evidence": "shared-mpn",
+    "evidenceValue": "3232429001",
+    "gpns": [
+      "1226815",
+      "1231230"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:577-0014-000",
+    "evidence": "shared-mpn",
+    "evidenceValue": "577-0014-000",
+    "gpns": [
+      "07021795",
+      "1145755"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:6052B0430901",
+    "evidence": "shared-mpn",
+    "evidenceValue": "6052B0430901",
+    "gpns": [
+      "1043851",
+      "1068812",
+      "1106558",
+      "1143662"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:6052B0662601",
+    "evidence": "shared-mpn",
+    "evidenceValue": "6052B0662601",
+    "gpns": [
+      "1143669",
+      "1143672"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:71057",
+    "evidence": "shared-mpn",
+    "evidenceValue": "71057",
+    "gpns": [
+      "07057647",
+      "900155"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize"
+    ]
+  },
+  {
+    "id": "mpn:90126A033",
+    "evidence": "shared-mpn",
+    "evidenceValue": "90126A033",
+    "gpns": [
+      "07010123",
+      "1123968",
+      "900403"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:90313A205",
+    "evidence": "shared-mpn",
+    "evidenceValue": "90313A205",
+    "gpns": [
+      "07098039",
+      "1011885-01"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize"
+    ]
+  },
+  {
+    "id": "mpn:90317A111",
+    "evidence": "shared-mpn",
+    "evidenceValue": "90317A111",
+    "gpns": [
+      "07070024",
+      "07082586"
+    ],
+    "conflictingKeys": [
+      "integralWasher",
+      "material"
+    ]
+  },
+  {
+    "id": "mpn:90945A740",
+    "evidence": "shared-mpn",
+    "evidenceValue": "90945A740",
+    "gpns": [
+      "07050564",
+      "1195143"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:90965A110",
+    "evidence": "shared-mpn",
+    "evidenceValue": "90965A110",
+    "gpns": [
+      "07082105",
+      "1048766"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:91090A114",
+    "evidence": "shared-mpn",
+    "evidenceValue": "91090A114",
+    "gpns": [
+      "1250923",
+      "900586"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:91101A233",
+    "evidence": "shared-mpn",
+    "evidenceValue": "91101A233",
+    "gpns": [
+      "1123967",
+      "900404"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:91102A770",
+    "evidence": "shared-mpn",
+    "evidenceValue": "91102A770",
+    "gpns": [
+      "1123967",
+      "900404"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:92146A030",
+    "evidence": "shared-mpn",
+    "evidenceValue": "92146A030",
+    "gpns": [
+      "07007073",
+      "07014464"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:92146A031",
+    "evidence": "shared-mpn",
+    "evidenceValue": "92146A031",
+    "gpns": [
+      "07007074",
+      "1011888-01"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize"
+    ]
+  },
+  {
+    "id": "mpn:92146A545",
+    "evidence": "shared-mpn",
+    "evidenceValue": "92146A545",
+    "gpns": [
+      "07096942",
+      "900155"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize"
+    ]
+  },
+  {
+    "id": "mpn:92146A550",
+    "evidence": "shared-mpn",
+    "evidenceValue": "92146A550",
+    "gpns": [
+      "07007071",
+      "07027403"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:93475A210",
+    "evidence": "shared-mpn",
+    "evidenceValue": "93475A210",
+    "gpns": [
+      "07129040",
+      "07131040"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:95610A530",
+    "evidence": "shared-mpn",
+    "evidenceValue": "95610A530",
+    "gpns": [
+      "1037434",
+      "1094711"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:98017A690",
+    "evidence": "shared-mpn",
+    "evidenceValue": "98017A690",
+    "gpns": [
+      "07014463",
+      "07015164"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:98023A033",
+    "evidence": "shared-mpn",
+    "evidenceValue": "98023A033",
+    "gpns": [
+      "1123968",
+      "900403"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:98437A110",
+    "evidence": "shared-mpn",
+    "evidenceValue": "98437A110",
+    "gpns": [
+      "07090570",
+      "1011887-01"
+    ],
+    "conflictingKeys": [
+      "fitsScrewSize"
+    ]
+  },
+  {
+    "id": "mpn:E-00589-1",
+    "evidence": "shared-mpn",
+    "evidenceValue": "E-00589-1",
+    "gpns": [
+      "07001144",
+      "1002313-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:H-00037",
+    "evidence": "shared-mpn",
+    "evidenceValue": "H-00037",
+    "gpns": [
+      "07001144",
+      "1002313-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:HW1224-CAGENUT-BK",
+    "evidence": "shared-mpn",
+    "evidenceValue": "HW1224-CAGENUT-BK",
+    "gpns": [
+      "07090969",
+      "1013239-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:HWH-F11",
+    "evidence": "shared-mpn",
+    "evidenceValue": "HWH-F11",
+    "gpns": [
+      "1118897-01",
+      "1239130-01"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:IFW-A1-AA-10019",
+    "evidence": "shared-mpn",
+    "evidenceValue": "IFW-A1-AA-10019",
+    "gpns": [
+      "1192976",
+      "1247551"
+    ],
+    "conflictingKeys": [
+      "innerDiameterMm"
+    ]
+  },
+  {
+    "id": "mpn:MCL0200801,REV3A",
+    "evidence": "shared-mpn",
+    "evidenceValue": "MCL0200801,REV3A",
+    "gpns": [
+      "1135925",
+      "1262647"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:MCL0900201,REV3A",
+    "evidence": "shared-mpn",
+    "evidenceValue": "MCL0900201,REV3A",
+    "gpns": [
+      "1135926",
+      "1262648"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:PCMIR040630NQ",
+    "evidence": "shared-mpn",
+    "evidenceValue": "PCMIR040630NQ",
+    "gpns": [
+      "1157703",
+      "1230621"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:S6W7-12",
+    "evidence": "shared-mpn",
+    "evidenceValue": "S6W7-12",
+    "gpns": [
+      "1063975",
+      "1250917"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:WAS0007439R000",
+    "evidence": "shared-mpn",
+    "evidenceValue": "WAS0007439R000",
+    "gpns": [
+      "1195019",
+      "1201948"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:WI-PS-G65377A",
+    "evidence": "shared-mpn",
+    "evidenceValue": "WI-PS-G65377A",
+    "gpns": [
+      "1146531",
+      "1172360",
+      "1262647"
+    ],
+    "conflictingKeys": []
+  },
+  {
+    "id": "mpn:WI-PS-G65378A",
+    "evidence": "shared-mpn",
+    "evidenceValue": "WI-PS-G65378A",
+    "gpns": [
+      "1146532",
+      "1172361",
+      "1262648"
+    ],
+    "conflictingKeys": []
+  }
+]
