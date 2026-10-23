@@ -298,16 +298,12 @@ code {
 /* ---- results --------------------------------------------------------- */
 .results { display: flex; flex-direction: column; gap: var(--s-4); }
 
-/* -- query recap (pinned "your search") ------------------------------- */
+/* -- query recap (kept in view at the top of the results page) -------- */
 .query-recap {
-  position: sticky;
-  top: 0;
-  z-index: 5;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: var(--s-4) var(--s-5);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 .recap-head {
   display: flex; justify-content: space-between; align-items: flex-start;
@@ -339,8 +335,8 @@ code {
 .recap-chip-k { color: var(--ink-mute); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; }
 .recap-chip-v { font-weight: 600; }
 .recap-chip-answered { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
-.recap-chip-answered .recap-chip-k { color: var(--accent); opacity: 0.75; }
-.recap-chip-answered .recap-chip-v { color: var(--accent); }
+.recap-chip-answered .recap-chip-k { color: var(--accent); opacity: 0.8; }
+.recap-chip-answered .recap-chip-v { color: var(--accent); font-family: var(--mono); }
 .recap-chip-skipped  { color: var(--ink-mute); border-style: dashed; }
 .recap-chip-skipped  .recap-chip-v { font-style: italic; font-weight: 400; }
 .recap-chip-scope    { background: var(--surface-2); cursor: default; }
@@ -385,55 +381,76 @@ code {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: auto;
+  overflow-x: auto;
 }
 .results-table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 13px;
+  table-layout: auto;
 }
+
+/* header row */
 .results-table thead th {
-  background: var(--surface-2);
-  color: var(--ink-2);
   text-align: left;
   padding: var(--s-3) var(--s-3);
   font-weight: 600;
-  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+  border-bottom: 2px solid var(--border-strong);
+  vertical-align: top;
   white-space: nowrap;
-  position: sticky; top: 0;
-  z-index: 2;
 }
-.results-table .th-prompt { font-size: 12px; }
-.results-table .th-unit { font-size: 11px; color: var(--ink-mute); font-weight: 400; }
-
-.results-table .row-asked td {
-  background: var(--accent-soft);
-  color: var(--accent);
-  padding: var(--s-2) var(--s-3);
-  border-bottom: 2px solid var(--accent);
-  font-size: 13px;
-  position: sticky; top: 44px;
-  z-index: 1;
+.results-table .th-prompt {
+  font-size: 12px;
+  color: var(--ink-2);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
-.asked-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 11px; }
-.cell-asked { font-family: var(--mono); font-weight: 600; }
-.cell-aux   { color: var(--ink-mute); font-style: italic; font-size: 12px; }
+.results-table .th-asked {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 3px 8px;
+  border-radius: var(--radius);
+  min-width: 72px;
+  border: 1px solid transparent;
+}
+.th-asked-kicker {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.th-asked-val {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--ink);
+}
+.th-ask-set    { background: var(--accent-soft); border-color: var(--accent); }
+.th-ask-set .th-asked-kicker { color: var(--accent); }
+.th-ask-set .th-asked-val    { color: var(--accent); }
+.th-ask-skip   { background: var(--surface);   border-color: var(--border); border-style: dashed; }
+.th-ask-skip .th-asked-val   { color: var(--ink-mute); font-style: italic; font-weight: 400; }
+.th-ask-none   { opacity: 0.6; }
+.th-ask-none .th-asked-val   { color: var(--ink-mute); font-weight: 400; }
 
+/* body cells */
 .results-table tbody td {
   padding: var(--s-2) var(--s-3);
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
+  background: var(--surface);
 }
 .results-table tbody tr:last-child td { border-bottom: 0; }
-.row-result:hover td { background: var(--surface-2); }
-.row-result.is-expanded td { background: var(--accent-soft); }
 
 .col-check   { width: 36px; }
-.col-check input { width: 16px; height: 16px; }
+.col-check input { width: 16px; height: 16px; cursor: pointer; }
 .col-gpn     { white-space: nowrap; }
 .col-verdict { white-space: nowrap; }
-.col-phase   { color: var(--ink-mute); white-space: nowrap; }
+.col-phase   { color: var(--ink-mute); white-space: nowrap; font-size: 12px; }
 .col-expand  { width: 32px; text-align: right; }
 
 .gpn-btn {
@@ -453,39 +470,70 @@ code {
   border: 1px solid var(--banner-border);
 }
 .expand-btn {
-  background: transparent; border: 0; padding: 2px 4px;
-  color: var(--ink-mute); cursor: pointer;
-  font-size: 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  width: 24px; height: 24px;
+  border-radius: 4px;
+  color: var(--ink-2); cursor: pointer;
+  font-size: 14px; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
 }
+.expand-btn:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 
-/* table cell verdicts */
-.tdcell {
-  display: inline-flex; gap: 6px; align-items: baseline;
+/* ---- cell verdicts: use solid colour, no !important wars ---- */
+.rt-cell {
+  padding: var(--s-2) var(--s-3) !important;
   white-space: nowrap;
 }
-.results-table td.tdcell {
-  background: inherit;
-}
-.td-match     { background: var(--match-bg)     !important; color: var(--match-ink); }
-.td-differs   { background: var(--different-bg) !important; color: var(--different-ink); font-weight: 600; }
-.td-unknown   { background: var(--review-bg)    !important; color: var(--review-ink); }
-.td-not-asked { color: var(--ink-mute); }
-.tdmark {
+.rt-cell .rt-mark {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 14px; height: 14px; border-radius: 3px;
-  font-size: 10px; font-weight: 700;
+  width: 16px; height: 16px; border-radius: 3px;
+  font-size: 11px; font-weight: 700;
+  margin-right: 6px;
+  vertical-align: middle;
 }
-.td-match .tdmark   { background: var(--match-border);     color: var(--match-ink); }
-.td-differs .tdmark { background: var(--different-border); color: var(--different-ink); }
-.td-unknown .tdmark { background: var(--review-border);    color: var(--review-ink); }
-.td-not-asked .tdmark { color: var(--ink-mute); }
-.tdval { font-family: var(--mono); font-size: 12px; }
+.rt-cell .rt-val {
+  font-family: var(--mono);
+  font-size: 12px;
+  vertical-align: middle;
+}
+.rt-match    { background: var(--match-bg); }
+.rt-match    .rt-mark { background: var(--match-border);     color: var(--match-ink); }
+.rt-match    .rt-val  { color: var(--match-ink); font-weight: 600; }
+
+.rt-differs  { background: var(--different-bg); }
+.rt-differs  .rt-mark { background: var(--different-border); color: var(--different-ink); }
+.rt-differs  .rt-val  { color: var(--different-ink); font-weight: 700; text-decoration: line-through; text-decoration-color: var(--different-border); }
+
+.rt-unknown  { background: var(--review-bg); }
+.rt-unknown  .rt-mark { background: var(--review-border);    color: var(--review-ink); }
+.rt-unknown  .rt-val  { color: var(--review-ink); font-style: italic; }
+
+.rt-not-asked { color: var(--ink-mute); }
+.rt-not-asked .rt-mark { color: var(--ink-mute); background: transparent; border: 1px dashed var(--border-strong); }
+.rt-not-asked .rt-val  { color: var(--ink-mute); }
+
+/* row-level highlight that complements (not fights) the cell colours */
+.row-result.is-expanded td.col-check,
+.row-result.is-expanded td.col-gpn,
+.row-result.is-expanded td.col-verdict,
+.row-result.is-expanded td.col-phase,
+.row-result.is-expanded td.col-expand {
+  background: var(--accent-soft);
+}
+.row-result:hover td.col-check,
+.row-result:hover td.col-gpn,
+.row-result:hover td.col-verdict,
+.row-result:hover td.col-phase,
+.row-result:hover td.col-expand {
+  background: var(--surface-2);
+}
 
 /* expanded detail row */
 .row-detail td {
   background: var(--surface);
-  padding: var(--s-4) var(--s-5);
-  border-top: 1px dashed var(--accent);
+  padding: var(--s-4) var(--s-5) !important;
+  border-top: 2px solid var(--accent);
   border-bottom: 2px solid var(--border-strong);
 }
 .detail-grid {
