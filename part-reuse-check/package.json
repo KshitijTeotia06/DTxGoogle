@@ -8,7 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "build:fixture": "tsx scripts/build-fixture.ts"
+    "build:fixture": "tsx scripts/build-dummy.ts",
+    "build:fixture:real": "tsx scripts/build-fixture.ts"
   },
   "dependencies": {
     "react": "18.3.1",

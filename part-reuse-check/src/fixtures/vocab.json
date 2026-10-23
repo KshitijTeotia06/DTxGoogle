@@ -1,28 +1,20 @@
 {
   "family": [
     {
-      "canonical": "washer",
-      "label": "washer",
-      "rawVariants": [
-        "washer"
-      ],
-      "count": 712
-    },
-    {
       "canonical": "screw",
       "label": "screw",
       "rawVariants": [
         "screw"
       ],
-      "count": 247
+      "count": 21
     },
     {
-      "canonical": "nut",
-      "label": "nut",
+      "canonical": "washer",
+      "label": "washer",
       "rawVariants": [
-        "nut"
+        "washer"
       ],
-      "count": 41
+      "count": 7
     },
     {
       "canonical": "bolt",
@@ -30,7 +22,7 @@
       "rawVariants": [
         "bolt"
       ],
-      "count": 23
+      "count": 2
     },
     {
       "canonical": "cage nut",
@@ -38,7 +30,15 @@
       "rawVariants": [
         "cage nut"
       ],
-      "count": 21
+      "count": 2
+    },
+    {
+      "canonical": "nut",
+      "label": "nut",
+      "rawVariants": [
+        "nut"
+      ],
+      "count": 2
     },
     {
       "canonical": "standoff",
@@ -61,7 +61,33 @@
         "PHCS",
         "PHP"
       ],
-      "count": 73
+      "count": 15
+    },
+    {
+      "canonical": "hex",
+      "label": "hex head",
+      "rawVariants": [
+        "HEX HEAD"
+      ],
+      "count": 3
+    },
+    {
+      "canonical": "socket",
+      "label": "socket head",
+      "rawVariants": [
+        "SOCKET HEAD",
+        "SHCS"
+      ],
+      "count": 2
+    },
+    {
+      "canonical": "button",
+      "label": "button head",
+      "rawVariants": [
+        "BUTTON HEAD",
+        "BHCS"
+      ],
+      "count": 1
     },
     {
       "canonical": "flat",
@@ -71,89 +97,6 @@
         "FLAT HEAD",
         "FLAT HD",
         "FHCS"
-      ],
-      "count": 25
-    },
-    {
-      "canonical": "socket",
-      "label": "socket head",
-      "rawVariants": [
-        "SOCKET HEAD",
-        "SHCS"
-      ],
-      "count": 17
-    },
-    {
-      "canonical": "hex",
-      "label": "hex head",
-      "rawVariants": [
-        "HEX HEAD"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "truss",
-      "label": "truss head",
-      "rawVariants": [
-        "TRUSS-HEAD",
-        "TRUSS HEAD"
-      ],
-      "count": 6
-    },
-    {
-      "canonical": "button",
-      "label": "button head",
-      "rawVariants": [
-        "BUTTON HEAD",
-        "BHCS"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "washer head",
-      "label": "washer head",
-      "rawVariants": [
-        "WASHER HEAD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "cap",
-      "label": "cap head",
-      "rawVariants": [
-        "CAP HEAD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "oval",
-      "label": "oval head",
-      "rawVariants": [
-        "OVAL HEAD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "flange",
-      "label": "flange head",
-      "rawVariants": [
-        "FLANGE HEAD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "low profile",
-      "label": "low profile head",
-      "rawVariants": [
-        "LOW PROFILE HEAD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "round",
-      "label": "round head",
-      "rawVariants": [
-        "ROUND HEAD"
       ],
       "count": 1
     }
@@ -169,7 +112,7 @@
         "PH1",
         "PH2"
       ],
-      "count": 62
+      "count": 16
     },
     {
       "canonical": "hex",
@@ -178,7 +121,7 @@
         "HEX SOCKET",
         "HEX"
       ],
-      "count": 56
+      "count": 7
     },
     {
       "canonical": "torx",
@@ -190,34 +133,19 @@
         "T25",
         "T30"
       ],
-      "count": 23
-    },
-    {
-      "canonical": "slotted",
-      "label": "slotted",
-      "rawVariants": [
-        "SLOTTED"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "square",
-      "label": "square",
-      "rawVariants": [
-        "SQUARE"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "combo",
-      "label": "combo",
-      "rawVariants": [
-        "COMBO"
-      ],
       "count": 1
     }
   ],
   "material": [
+    {
+      "canonical": "steel",
+      "label": "steel",
+      "rawVariants": [
+        "STEEL",
+        "STL"
+      ],
+      "count": 23
+    },
     {
       "canonical": "stainless steel",
       "label": "stainless steel",
@@ -234,24 +162,7 @@
         "410",
         "303"
       ],
-      "count": 327
-    },
-    {
-      "canonical": "steel",
-      "label": "steel",
-      "rawVariants": [
-        "STEEL",
-        "STL"
-      ],
-      "count": 227
-    },
-    {
-      "canonical": "nylon",
-      "label": "nylon",
-      "rawVariants": [
-        "NYLON"
-      ],
-      "count": 28
+      "count": 8
     },
     {
       "canonical": "alloy steel",
@@ -259,15 +170,7 @@
       "rawVariants": [
         "ALLOY STEEL"
       ],
-      "count": 12
-    },
-    {
-      "canonical": "bronze",
-      "label": "bronze",
-      "rawVariants": [
-        "BRONZE"
-      ],
-      "count": 12
+      "count": 2
     },
     {
       "canonical": "brass",
@@ -275,40 +178,7 @@
       "rawVariants": [
         "BRASS"
       ],
-      "count": 11
-    },
-    {
-      "canonical": "carbon steel",
-      "label": "carbon steel",
-      "rawVariants": [
-        "CARBON STEEL"
-      ],
-      "count": 9
-    },
-    {
-      "canonical": "plastic",
-      "label": "plastic",
-      "rawVariants": [
-        "PLASTIC"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "spring steel",
-      "label": "spring steel",
-      "rawVariants": [
-        "SPRING STEEL"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "aluminum",
-      "label": "aluminum",
-      "rawVariants": [
-        "ALUMINIUM",
-        "ALUMINUM"
-      ],
-      "count": 2
+      "count": 1
     }
   ],
   "finish": [
@@ -323,39 +193,7 @@
         "ZP",
         "ZN"
       ],
-      "count": 175
-    },
-    {
-      "canonical": "black",
-      "label": "black",
-      "rawVariants": [
-        "BLACK"
-      ],
-      "count": 25
-    },
-    {
-      "canonical": "black oxide",
-      "label": "black oxide",
-      "rawVariants": [
-        "BLACK OXIDE"
-      ],
-      "count": 16
-    },
-    {
-      "canonical": "plain",
-      "label": "plain",
-      "rawVariants": [
-        "PLAIN"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "cadmium",
-      "label": "cadmium",
-      "rawVariants": [
-        "CADMIUM"
-      ],
-      "count": 9
+      "count": 23
     },
     {
       "canonical": "passivated",
@@ -363,45 +201,29 @@
       "rawVariants": [
         "PASSIVATED"
       ],
-      "count": 7
-    },
-    {
-      "canonical": "galvanized",
-      "label": "galvanized",
-      "rawVariants": [
-        "GALVANIZED"
-      ],
       "count": 4
     },
     {
-      "canonical": "hot dip galvanized",
-      "label": "hot dip galvanized",
+      "canonical": "black oxide",
+      "label": "black oxide",
       "rawVariants": [
-        "HOT DIP GALVANIZED"
+        "BLACK OXIDE"
       ],
-      "count": 4
+      "count": 3
+    },
+    {
+      "canonical": "plain",
+      "label": "plain",
+      "rawVariants": [
+        "PLAIN"
+      ],
+      "count": 2
     },
     {
       "canonical": "nickel",
       "label": "nickel",
       "rawVariants": [
         "NICKEL"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "phosphate",
-      "label": "phosphate",
-      "rawVariants": [
-        "PHOSPHATE"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "tin",
-      "label": "tin",
-      "rawVariants": [
-        "TIN"
       ],
       "count": 1
     }
@@ -415,7 +237,7 @@
         "LOCK WASHER",
         "SPLIT LOCK"
       ],
-      "count": 27
+      "count": 2
     },
     {
       "canonical": "captive/SEM",
@@ -428,53 +250,7 @@
         "SEMS",
         "SEM"
       ],
-      "count": 22
-    },
-    {
-      "canonical": "square cone",
-      "label": "square cone",
-      "rawVariants": [
-        "SQ CONICAL",
-        "SQUARE CONE",
-        "CONICAL"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "external tooth",
-      "label": "external tooth",
-      "rawVariants": [
-        "EXTERNAL-TOOTH",
-        "EXTERNAL TOOTH",
-        "EXT-TOOTH",
-        "EXT TOOTH"
-      ],
-      "count": 12
-    },
-    {
-      "canonical": "flat washer",
-      "label": "flat washer",
-      "rawVariants": [
-        "FLAT WASHER"
-      ],
-      "count": 12
-    },
-    {
-      "canonical": "internal tooth",
-      "label": "internal tooth",
-      "rawVariants": [
-        "INTERNAL-TOOTH",
-        "INTERNAL TOOTH"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "nylon patch",
-      "label": "nylon patch",
-      "rawVariants": [
-        "NYLON PATCH"
-      ],
-      "count": 3
+      "count": 1
     }
   ],
   "washerStyle": [
@@ -484,17 +260,7 @@
       "rawVariants": [
         "FLAT WASHER"
       ],
-      "count": 333
-    },
-    {
-      "canonical": "split lock",
-      "label": "split lock",
-      "rawVariants": [
-        "SPRING LOCK",
-        "LOCK WASHER",
-        "SPLIT LOCK"
-      ],
-      "count": 82
+      "count": 4
     },
     {
       "canonical": "external tooth",
@@ -505,97 +271,27 @@
         "EXT-TOOTH",
         "EXT TOOTH"
       ],
-      "count": 26
-    },
-    {
-      "canonical": "internal tooth",
-      "label": "internal tooth",
-      "rawVariants": [
-        "INTERNAL-TOOTH",
-        "INTERNAL TOOTH"
-      ],
-      "count": 12
-    },
-    {
-      "canonical": "square cone",
-      "label": "square cone",
-      "rawVariants": [
-        "SQ CONICAL",
-        "SQUARE CONE",
-        "CONICAL"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "captive/SEM",
-      "label": "captive/SEM",
-      "rawVariants": [
-        "W/ WASHER",
-        "WITH WASHER",
-        "W/WASHER",
-        "CAPTIVE",
-        "SEMS",
-        "SEM"
-      ],
       "count": 2
+    },
+    {
+      "canonical": "split lock",
+      "label": "split lock",
+      "rawVariants": [
+        "SPRING LOCK",
+        "LOCK WASHER",
+        "SPLIT LOCK"
+      ],
+      "count": 1
     }
   ],
   "fitsScrewSize": [
-    {
-      "canonical": "18-8",
-      "label": "18-8",
-      "rawVariants": [
-        "18-8"
-      ],
-      "count": 55
-    },
-    {
-      "canonical": "M6",
-      "label": "M6",
-      "rawVariants": [
-        "M6"
-      ],
-      "count": 34
-    },
     {
       "canonical": "M3",
       "label": "M3",
       "rawVariants": [
         "M3"
       ],
-      "count": 31
-    },
-    {
-      "canonical": "M4",
-      "label": "M4",
-      "rawVariants": [
-        "M4"
-      ],
-      "count": 31
-    },
-    {
-      "canonical": "M5",
-      "label": "M5",
-      "rawVariants": [
-        "M5"
-      ],
-      "count": 31
-    },
-    {
-      "canonical": "1/4in",
-      "label": "1/4in",
-      "rawVariants": [
-        "1/4in"
-      ],
-      "count": 25
-    },
-    {
-      "canonical": "#6",
-      "label": "#6",
-      "rawVariants": [
-        "#6"
-      ],
-      "count": 23
+      "count": 3
     },
     {
       "canonical": "#10",
@@ -603,321 +299,15 @@
       "rawVariants": [
         "#10"
       ],
-      "count": 22
-    },
-    {
-      "canonical": "M8",
-      "label": "M8",
-      "rawVariants": [
-        "M8"
-      ],
-      "count": 22
-    },
-    {
-      "canonical": "3/8in",
-      "label": "3/8in",
-      "rawVariants": [
-        "3/8in"
-      ],
-      "count": 20
-    },
-    {
-      "canonical": "M10",
-      "label": "M10",
-      "rawVariants": [
-        "M10"
-      ],
-      "count": 20
-    },
-    {
-      "canonical": "#8",
-      "label": "#8",
-      "rawVariants": [
-        "#8"
-      ],
-      "count": 16
-    },
-    {
-      "canonical": "#4",
-      "label": "#4",
-      "rawVariants": [
-        "#4"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "M12",
-      "label": "M12",
-      "rawVariants": [
-        "M12"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "1/2in",
-      "label": "1/2in",
-      "rawVariants": [
-        "1/2in"
-      ],
-      "count": 13
-    },
-    {
-      "canonical": "M16",
-      "label": "M16",
-      "rawVariants": [
-        "M16"
-      ],
-      "count": 13
-    },
-    {
-      "canonical": "5/16in",
-      "label": "5/16in",
-      "rawVariants": [
-        "5/16in"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "M24",
-      "label": "M24",
-      "rawVariants": [
-        "M24"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "M30",
-      "label": "M30",
-      "rawVariants": [
-        "M30"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "5/8in",
-      "label": "5/8in",
-      "rawVariants": [
-        "5/8in"
-      ],
-      "count": 9
-    },
-    {
-      "canonical": "M2",
-      "label": "M2",
-      "rawVariants": [
-        "M2"
-      ],
-      "count": 9
-    },
-    {
-      "canonical": "#12",
-      "label": "#12",
-      "rawVariants": [
-        "#12"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "M2.5",
-      "label": "M2.5",
-      "rawVariants": [
-        "M2.5"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "M20",
-      "label": "M20",
-      "rawVariants": [
-        "M20"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "M36",
-      "label": "M36",
-      "rawVariants": [
-        "M36"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "#2",
-      "label": "#2",
-      "rawVariants": [
-        "#2"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "1/8in",
-      "label": "1/8in",
-      "rawVariants": [
-        "1/8in"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "3/4in",
-      "label": "3/4in",
-      "rawVariants": [
-        "3/4in"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M1.6",
-      "label": "M1.6",
-      "rawVariants": [
-        "M1.6"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M13",
-      "label": "M13",
-      "rawVariants": [
-        "M13"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M39",
-      "label": "M39",
-      "rawVariants": [
-        "M39"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "6-32",
-      "label": "6-32",
-      "rawVariants": [
-        "6-32"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "M14",
-      "label": "M14",
-      "rawVariants": [
-        "M14"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "#1",
-      "label": "#1",
-      "rawVariants": [
-        "#1"
-      ],
       "count": 1
     },
     {
-      "canonical": "1/4-20",
-      "label": "1/4-20",
+      "canonical": "1/4in",
+      "label": "1/4in",
       "rawVariants": [
-        "1/4-20"
+        "1/4in"
       ],
       "count": 1
-    },
-    {
-      "canonical": "10-32",
-      "label": "10-32",
-      "rawVariants": [
-        "10-32"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "13/64in",
-      "label": "13/64in",
-      "rawVariants": [
-        "13/64in"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3/8-32",
-      "label": "3/8-32",
-      "rawVariants": [
-        "3/8-32"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7/16in",
-      "label": "7/16in",
-      "rawVariants": [
-        "7/16in"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7/8in",
-      "label": "7/8in",
-      "rawVariants": [
-        "7/8in"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9/16in",
-      "label": "9/16in",
-      "rawVariants": [
-        "9/16in"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M1",
-      "label": "M1",
-      "rawVariants": [
-        "M1"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M3.5",
-      "label": "M3.5",
-      "rawVariants": [
-        "M3.5"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M48",
-      "label": "M48",
-      "rawVariants": [
-        "M48"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M7",
-      "label": "M7",
-      "rawVariants": [
-        "M7"
-      ],
-      "count": 1
-    }
-  ],
-  "threadSize": [
-    {
-      "canonical": "18-8",
-      "label": "18-8",
-      "rawVariants": [
-        "18-8"
-      ],
-      "count": 62
-    },
-    {
-      "canonical": "M6",
-      "label": "M6",
-      "rawVariants": [
-        "M6"
-      ],
-      "count": 61
     },
     {
       "canonical": "M4",
@@ -925,15 +315,7 @@
       "rawVariants": [
         "M4"
       ],
-      "count": 60
-    },
-    {
-      "canonical": "M3",
-      "label": "M3",
-      "rawVariants": [
-        "M3"
-      ],
-      "count": 59
+      "count": 1
     },
     {
       "canonical": "M5",
@@ -941,7 +323,33 @@
       "rawVariants": [
         "M5"
       ],
-      "count": 51
+      "count": 1
+    }
+  ],
+  "threadSize": [
+    {
+      "canonical": "M3",
+      "label": "M3",
+      "rawVariants": [
+        "M3"
+      ],
+      "count": 21
+    },
+    {
+      "canonical": "M5",
+      "label": "M5",
+      "rawVariants": [
+        "M5"
+      ],
+      "count": 5
+    },
+    {
+      "canonical": "M4",
+      "label": "M4",
+      "rawVariants": [
+        "M4"
+      ],
+      "count": 2
     },
     {
       "canonical": "10-32",
@@ -949,127 +357,7 @@
       "rawVariants": [
         "10-32"
       ],
-      "count": 34
-    },
-    {
-      "canonical": "M8",
-      "label": "M8",
-      "rawVariants": [
-        "M8"
-      ],
-      "count": 33
-    },
-    {
-      "canonical": "M10",
-      "label": "M10",
-      "rawVariants": [
-        "M10"
-      ],
-      "count": 22
-    },
-    {
-      "canonical": "6-32",
-      "label": "6-32",
-      "rawVariants": [
-        "6-32"
-      ],
-      "count": 21
-    },
-    {
-      "canonical": "M2",
-      "label": "M2",
-      "rawVariants": [
-        "M2"
-      ],
-      "count": 17
-    },
-    {
-      "canonical": "4-40",
-      "label": "4-40",
-      "rawVariants": [
-        "4-40"
-      ],
-      "count": 16
-    },
-    {
-      "canonical": "M12",
-      "label": "M12",
-      "rawVariants": [
-        "M12"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "M16",
-      "label": "M16",
-      "rawVariants": [
-        "M16"
-      ],
-      "count": 14
-    },
-    {
-      "canonical": "M2.5",
-      "label": "M2.5",
-      "rawVariants": [
-        "M2.5"
-      ],
-      "count": 13
-    },
-    {
-      "canonical": "M24",
-      "label": "M24",
-      "rawVariants": [
-        "M24"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "M30",
-      "label": "M30",
-      "rawVariants": [
-        "M30"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "1/4-20",
-      "label": "1/4-20",
-      "rawVariants": [
-        "1/4-20"
-      ],
-      "count": 10
-    },
-    {
-      "canonical": "12-24",
-      "label": "12-24",
-      "rawVariants": [
-        "12-24"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "M20",
-      "label": "M20",
-      "rawVariants": [
-        "M20"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "M36",
-      "label": "M36",
-      "rawVariants": [
-        "M36"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "2-56",
-      "label": "2-56",
-      "rawVariants": [
-        "2-56"
-      ],
-      "count": 5
+      "count": 1
     },
     {
       "canonical": "8-32",
@@ -1077,145 +365,41 @@
       "rawVariants": [
         "8-32"
       ],
-      "count": 4
+      "count": 1
     },
     {
-      "canonical": "M39",
-      "label": "M39",
+      "canonical": "M10",
+      "label": "M10",
       "rawVariants": [
-        "M39"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "10-24",
-      "label": "10-24",
-      "rawVariants": [
-        "10-24"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "3/8-16",
-      "label": "3/8-16",
-      "rawVariants": [
-        "3/8-16"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M1.6",
-      "label": "M1.6",
-      "rawVariants": [
-        "M1.6"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M13",
-      "label": "M13",
-      "rawVariants": [
-        "M13"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "M14",
-      "label": "M14",
-      "rawVariants": [
-        "M14"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "0-80",
-      "label": "0-80",
-      "rawVariants": [
-        "0-80"
+        "M10"
       ],
       "count": 1
     },
     {
-      "canonical": "10-25",
-      "label": "10-25",
+      "canonical": "M6",
+      "label": "M6",
       "rawVariants": [
-        "10-25"
+        "M6"
       ],
       "count": 1
     },
     {
-      "canonical": "3/8-32",
-      "label": "3/8-32",
+      "canonical": "M8",
+      "label": "M8",
       "rawVariants": [
-        "3/8-32"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5/8-11",
-      "label": "5/8-11",
-      "rawVariants": [
-        "5/8-11"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M1",
-      "label": "M1",
-      "rawVariants": [
-        "M1"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M3.5",
-      "label": "M3.5",
-      "rawVariants": [
-        "M3.5"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M48",
-      "label": "M48",
-      "rawVariants": [
-        "M48"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "M7",
-      "label": "M7",
-      "rawVariants": [
-        "M7"
+        "M8"
       ],
       "count": 1
     }
   ],
   "threadPitchMm": [
     {
-      "canonical": "0.4",
-      "label": "0.4 mm",
-      "rawVariants": [
-        "0.4"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "0.45",
-      "label": "0.45 mm",
-      "rawVariants": [
-        "0.45"
-      ],
-      "count": 3
-    },
-    {
       "canonical": "0.5",
       "label": "0.5 mm",
       "rawVariants": [
         "0.5"
       ],
-      "count": 13
+      "count": 15
     },
     {
       "canonical": "0.7",
@@ -1223,7 +407,7 @@
       "rawVariants": [
         "0.7"
       ],
-      "count": 17
+      "count": 1
     },
     {
       "canonical": "0.8",
@@ -1231,7 +415,7 @@
       "rawVariants": [
         "0.8"
       ],
-      "count": 6
+      "count": 4
     },
     {
       "canonical": "1",
@@ -1247,160 +431,47 @@
       "rawVariants": [
         "1.25"
       ],
-      "count": 5
+      "count": 1
     },
     {
-      "canonical": "4.22",
-      "label": "4.22 mm",
+      "canonical": "1.5",
+      "label": "1.5 mm",
       "rawVariants": [
-        "4.22"
+        "1.5"
       ],
-      "count": 2
+      "count": 1
     }
   ],
   "lengthMm": [
     {
+      "canonical": "0.5",
+      "label": "0.5 mm",
+      "rawVariants": [
+        "M3x0.5mm"
+      ],
+      "count": 1
+    },
+    {
+      "canonical": "0.8",
+      "label": "0.8 mm",
+      "rawVariants": [
+        "M5x0.8mm"
+      ],
+      "count": 2
+    },
+    {
       "canonical": "1",
       "label": "1 mm",
       "rawVariants": [
-        "M6x1mm"
+        "M6x1.0mm"
       ],
       "count": 1
-    },
-    {
-      "canonical": "1.25",
-      "label": "1.25 mm",
-      "rawVariants": [
-        "M8 X 1.25mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2",
-      "label": "2 mm",
-      "rawVariants": [
-        "2mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3",
-      "label": "3 mm",
-      "rawVariants": [
-        "M4 x 3mm",
-        "3mm long"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "3.5",
-      "label": "3.5 mm",
-      "rawVariants": [
-        "3.5mmL"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "4",
-      "label": "4 mm",
-      "rawVariants": [
-        "4mm L",
-        "4mm"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "4.22",
-      "label": "4.22 mm",
-      "rawVariants": [
-        "M3 x 4.22 mm"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "4.762",
-      "label": "4.762 mm",
-      "rawVariants": [
-        "3/16\" length",
-        "3/16in L",
-        "3/16\" Long",
-        "3/16 IN LONG",
-        "3/16\" long"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "5",
-      "label": "5 mm",
-      "rawVariants": [
-        "M3 X 5mm",
-        "5mm",
-        "5 mm Long",
-        "5mm Long"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "5.5",
-      "label": "5.5 mm",
-      "rawVariants": [
-        "5.5mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5.85",
-      "label": "5.85 mm",
-      "rawVariants": [
-        "5.85mm"
-      ],
-      "count": 4
     },
     {
       "canonical": "6",
       "label": "6 mm",
       "rawVariants": [
-        "6MM",
-        "6mm L",
-        "M3 x 0.5 x 6 mm",
-        "M3-0.5X6MM",
-        "6.0mmL",
-        "6mm",
-        "6mm Long",
-        "M4x 0.7 x 6mm"
-      ],
-      "count": 10
-    },
-    {
-      "canonical": "6.35",
-      "label": "6.35 mm",
-      "rawVariants": [
-        "1/4\" Length",
-        "1/4\"L",
-        "1/4in L",
-        "6.35mm",
-        "1/4 IN LONG",
-        ".25\" L",
-        "0.25 in Long"
-      ],
-      "count": 9
-    },
-    {
-      "canonical": "7",
-      "label": "7 mm",
-      "rawVariants": [
-        "7mm",
-        "M3 x 7mm",
-        "M4 x 7mm",
-        "7mm Length"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "7.938",
-      "label": "7.938 mm",
-      "rawVariants": [
-        "5/16\" Long"
+        "6mm Long"
       ],
       "count": 2
     },
@@ -1408,191 +479,67 @@
       "canonical": "8",
       "label": "8 mm",
       "rawVariants": [
-        "8MM",
-        "8MM L",
         "8mm Long",
-        "M5 x 8mm",
-        "8mm Length",
-        "M3-0.5X8MM",
-        "M3X8MM",
-        "M3-0.5X8mm",
-        "8 mm Long"
+        "M3x8mm",
+        "M3 x 8MM",
+        "M3 x 0.5 x 8 mm",
+        "8mm"
       ],
-      "count": 13
+      "count": 11
     },
     {
       "canonical": "9.525",
       "label": "9.525 mm",
       "rawVariants": [
-        "3/8\"L",
-        "3/8\" length",
-        "3/8inch L",
-        "3/8 in Length"
+        "3/8in Long"
       ],
-      "count": 5
+      "count": 1
     },
     {
       "canonical": "10",
       "label": "10 mm",
       "rawVariants": [
-        "M5 x 10mm",
-        "M6x10mm",
-        "M8x10mm",
-        "M4x10mm",
-        "M6 x 10 mm",
-        "10mm Length",
-        "10 mm Long"
+        "10mm Long"
       ],
-      "count": 9
+      "count": 3
     },
     {
       "canonical": "12",
       "label": "12 mm",
       "rawVariants": [
-        "12MM",
-        "M2 x 12mm",
-        "12 mm Long",
-        "M6x12mm",
-        "M8x12mm",
-        "M5 x 0.8 x 12mm",
-        "M6 x 1 x 12mm",
-        "M4x12mm",
-        "12mm Long",
-        "12mm L",
-        "12MM L",
-        "M4x 0.7 x 12mm",
-        "12mm Length"
+        "12mm Long"
       ],
-      "count": 20
+      "count": 1
     },
     {
       "canonical": "12.7",
       "label": "12.7 mm",
       "rawVariants": [
-        "1/2\" length",
-        "1/2in L"
+        "1/2in Long"
       ],
-      "count": 2
-    },
-    {
-      "canonical": "14",
-      "label": "14 mm",
-      "rawVariants": [
-        "M5x14 MM",
-        "14MM",
-        "14mm Length"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "15.875",
-      "label": "15.875 mm",
-      "rawVariants": [
-        "5/8\" length",
-        "5/8in L",
-        "5/8 in Length",
-        "5/8\"L",
-        "5/8 inch Long"
-      ],
-      "count": 6
+      "count": 1
     },
     {
       "canonical": "16",
       "label": "16 mm",
       "rawVariants": [
-        "M5 X 16MM",
-        "16MM L",
-        "16mm Long",
-        "M5 x 16mm",
-        "16mm length",
-        "16 mm Long"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "18",
-      "label": "18 mm",
-      "rawVariants": [
-        "18mm Length"
+        "16mm Long"
       ],
       "count": 1
-    },
-    {
-      "canonical": "19.05",
-      "label": "19.05 mm",
-      "rawVariants": [
-        ".75in Length",
-        "0.75in L",
-        "3/4\" length",
-        "3/4 inch Length",
-        "3/4 in L",
-        "3/4in L",
-        "0.75 in Length"
-      ],
-      "count": 10
     },
     {
       "canonical": "20",
       "label": "20 mm",
       "rawVariants": [
-        "20mm length",
-        "M6x1.0X20mm",
-        "20mm Long",
-        "M2.5 x 20mm",
-        "20MM"
+        "20mm Long"
       ],
-      "count": 6
-    },
-    {
-      "canonical": "24",
-      "label": "24 mm",
-      "rawVariants": [
-        "24MM L"
-      ],
-      "count": 2
+      "count": 1
     },
     {
       "canonical": "25",
       "label": "25 mm",
       "rawVariants": [
-        "25mm L",
-        "25mm length"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "25.4",
-      "label": "25.4 mm",
-      "rawVariants": [
-        "1in L",
-        "1\" Long",
-        "1 IN LONG",
-        "1\"L"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "30",
-      "label": "30 mm",
-      "rawVariants": [
-        "M6 x 30mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "35",
-      "label": "35 mm",
-      "rawVariants": [
-        "35mm Length"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "38.1",
-      "label": "38.1 mm",
-      "rawVariants": [
-        "1-1/2in Long",
-        "1.5 IN L"
+        "25mm Long"
       ],
       "count": 2
     },
@@ -1600,231 +547,17 @@
       "canonical": "40",
       "label": "40 mm",
       "rawVariants": [
-        "40mm Length"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "42.926",
-      "label": "42.926 mm",
-      "rawVariants": [
-        "1.69in Length"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "43",
-      "label": "43 mm",
-      "rawVariants": [
-        "M4 x 43mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "44.45",
-      "label": "44.45 mm",
-      "rawVariants": [
-        "1.75\" L"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "50.8",
-      "label": "50.8 mm",
-      "rawVariants": [
-        "2in Length"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "63.5",
-      "label": "63.5 mm",
-      "rawVariants": [
-        "2.5\" L"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "70",
-      "label": "70 mm",
-      "rawVariants": [
-        "70mm Length"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "76.2",
-      "label": "76.2 mm",
-      "rawVariants": [
-        "3 in L",
-        "3 in Length",
-        "3in Length"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "80",
-      "label": "80 mm",
-      "rawVariants": [
-        "M16x80mm"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "101.6",
-      "label": "101.6 mm",
-      "rawVariants": [
-        "4in Length"
+        "40mm Long"
       ],
       "count": 1
     }
   ],
   "innerDiameterMm": [
     {
-      "canonical": "0.787",
-      "label": "0.787 mm",
-      "rawVariants": [
-        "0.031\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.9",
-      "label": "1.9 mm",
-      "rawVariants": [
-        "1.9mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.2",
-      "label": "2.2 mm",
-      "rawVariants": [
-        "2.2MM ID",
-        "2.2 mm ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2.7",
-      "label": "2.7 mm",
-      "rawVariants": [
-        "2.7mm ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2.769",
-      "label": "2.769 mm",
-      "rawVariants": [
-        "0.109in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.9",
-      "label": "2.9 mm",
-      "rawVariants": [
-        "2.9mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.921",
-      "label": "2.921 mm",
-      "rawVariants": [
-        "0.115in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.048",
-      "label": "3.048 mm",
-      "rawVariants": [
-        "0.120\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.1",
-      "label": "3.1 mm",
-      "rawVariants": [
-        "3.1mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.175",
-      "label": "3.175 mm",
-      "rawVariants": [
-        "0.125IN ID"
-      ],
-      "count": 1
-    },
-    {
       "canonical": "3.2",
       "label": "3.2 mm",
       "rawVariants": [
-        "3.2mm ID",
-        "3.2 mm ID"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "3.251",
-      "label": "3.251 mm",
-      "rawVariants": [
-        "0.128\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.4",
-      "label": "3.4 mm",
-      "rawVariants": [
-        "3.4mm ID",
-        "3.4 MM ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "3.404",
-      "label": "3.404 mm",
-      "rawVariants": [
-        "0.134\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.556",
-      "label": "3.556 mm",
-      "rawVariants": [
-        "0.14\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.581",
-      "label": "3.581 mm",
-      "rawVariants": [
-        "0.141in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.785",
-      "label": "3.785 mm",
-      "rawVariants": [
-        "0.149\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.962",
-      "label": "3.962 mm",
-      "rawVariants": [
-        "0.156\"ID",
-        "0.156in ID"
+        "3.2mm ID"
       ],
       "count": 2
     },
@@ -1832,95 +565,9 @@
       "canonical": "4.3",
       "label": "4.3 mm",
       "rawVariants": [
-        "4.3mm ID",
-        "4.3MM ID",
-        "4.300mm ID",
-        "4.3 mm ID"
-      ],
-      "count": 11
-    },
-    {
-      "canonical": "4.369",
-      "label": "4.369 mm",
-      "rawVariants": [
-        "0.172\" ID"
+        "4.3mm ID"
       ],
       "count": 1
-    },
-    {
-      "canonical": "4.4",
-      "label": "4.4 mm",
-      "rawVariants": [
-        "4.4mm ID",
-        "4.4 MM ID"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "4.42",
-      "label": "4.42 mm",
-      "rawVariants": [
-        "0.174in ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "4.445",
-      "label": "4.445 mm",
-      "rawVariants": [
-        "0.175\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "4.7",
-      "label": "4.7 mm",
-      "rawVariants": [
-        "4.7mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "4.775",
-      "label": "4.775 mm",
-      "rawVariants": [
-        "0.188in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5.156",
-      "label": "5.156 mm",
-      "rawVariants": [
-        "0.203in ID",
-        "0.203\" ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "5.159",
-      "label": "5.159 mm",
-      "rawVariants": [
-        "13/64\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5.3",
-      "label": "5.3 mm",
-      "rawVariants": [
-        "5.3MM ID",
-        "5.3mm ID"
-      ],
-      "count": 6
-    },
-    {
-      "canonical": "5.4",
-      "label": "5.4 mm",
-      "rawVariants": [
-        "5.4mm ID"
-      ],
-      "count": 4
     },
     {
       "canonical": "5.5",
@@ -1928,733 +575,31 @@
       "rawVariants": [
         "5.5mm ID"
       ],
-      "count": 3
-    },
-    {
-      "canonical": "5.556",
-      "label": "5.556 mm",
-      "rawVariants": [
-        "7/32in ID"
-      ],
       "count": 1
     },
     {
-      "canonical": "5.791",
-      "label": "5.791 mm",
+      "canonical": "7.137",
+      "label": "7.137 mm",
       "rawVariants": [
-        "0.228\" ID"
+        "0.281in ID"
       ],
       "count": 1
-    },
-    {
-      "canonical": "6.2",
-      "label": "6.2 mm",
-      "rawVariants": [
-        "6.2mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6.35",
-      "label": "6.35 mm",
-      "rawVariants": [
-        "1/4\" ID",
-        "0.25\" ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "6.4",
-      "label": "6.4 mm",
-      "rawVariants": [
-        "6.4mm ID",
-        "6.4MM ID"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "6.477",
-      "label": "6.477 mm",
-      "rawVariants": [
-        "0.255\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6.5",
-      "label": "6.5 mm",
-      "rawVariants": [
-        "6.5mm ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "6.604",
-      "label": "6.604 mm",
-      "rawVariants": [
-        "0.26in ID",
-        "0.260in ID",
-        "0.260 IN ID"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "6.731",
-      "label": "6.731 mm",
-      "rawVariants": [
-        "0.265in ID",
-        "0.265\" ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "7.112",
-      "label": "7.112 mm",
-      "rawVariants": [
-        "0.280in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.144",
-      "label": "7.144 mm",
-      "rawVariants": [
-        "9/32\"ID",
-        "9/32\" ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "8.179",
-      "label": "8.179 mm",
-      "rawVariants": [
-        "0.322in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.4",
-      "label": "8.4 mm",
-      "rawVariants": [
-        "8.4mm ID",
-        "8.4MM ID"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "8.5",
-      "label": "8.5 mm",
-      "rawVariants": [
-        "8.5mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.731",
-      "label": "8.731 mm",
-      "rawVariants": [
-        "11/32\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.738",
-      "label": "8.738 mm",
-      "rawVariants": [
-        "0.344in ID",
-        "0.344\" ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "9.017",
-      "label": "9.017 mm",
-      "rawVariants": [
-        "0.355\" ID",
-        "0.355\"ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "9.525",
-      "label": "9.525 mm",
-      "rawVariants": [
-        "0.375in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9.779",
-      "label": "9.779 mm",
-      "rawVariants": [
-        "0.385 IN ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9.906",
-      "label": "9.906 mm",
-      "rawVariants": [
-        "0.39\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9.957",
-      "label": "9.957 mm",
-      "rawVariants": [
-        "0.392in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "10.312",
-      "label": "10.312 mm",
-      "rawVariants": [
-        "0.406\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "10.5",
-      "label": "10.5 mm",
-      "rawVariants": [
-        "10.5MM ID",
-        "10.5mm ID"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "10.7",
-      "label": "10.7 mm",
-      "rawVariants": [
-        "10.7mm ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11.125",
-      "label": "11.125 mm",
-      "rawVariants": [
-        "0.438in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11.43",
-      "label": "11.43 mm",
-      "rawVariants": [
-        "0.450in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "12.7",
-      "label": "12.7 mm",
-      "rawVariants": [
-        "12.7MM ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "13.005",
-      "label": "13.005 mm",
-      "rawVariants": [
-        "0.512in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "13.487",
-      "label": "13.487 mm",
-      "rawVariants": [
-        "0.531in ID",
-        "0.531 inch ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "13.513",
-      "label": "13.513 mm",
-      "rawVariants": [
-        "0.532 in ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "13.691",
-      "label": "13.691 mm",
-      "rawVariants": [
-        "0.539\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "14.275",
-      "label": "14.275 mm",
-      "rawVariants": [
-        "0.562\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "16.993",
-      "label": "16.993 mm",
-      "rawVariants": [
-        "0.669in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "127",
-      "label": "127 mm",
-      "rawVariants": [
-        "5in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "355.6",
-      "label": "355.6 mm",
-      "rawVariants": [
-        "14\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "406.4",
-      "label": "406.4 mm",
-      "rawVariants": [
-        "16in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "558.8",
-      "label": "558.8 mm",
-      "rawVariants": [
-        "22\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "965.2",
-      "label": "965.2 mm",
-      "rawVariants": [
-        "38in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1092.2",
-      "label": "1092.2 mm",
-      "rawVariants": [
-        "43\" ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2387.6",
-      "label": "2387.6 mm",
-      "rawVariants": [
-        "094in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2921",
-      "label": "2921 mm",
-      "rawVariants": [
-        "115\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3048",
-      "label": "3048 mm",
-      "rawVariants": [
-        "120\" ID",
-        "120\"ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "3962.4",
-      "label": "3962.4 mm",
-      "rawVariants": [
-        "156\" ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "4368.8",
-      "label": "4368.8 mm",
-      "rawVariants": [
-        "172in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "4572",
-      "label": "4572 mm",
-      "rawVariants": [
-        "180\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "4953",
-      "label": "4953 mm",
-      "rawVariants": [
-        "195in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5080",
-      "label": "5080 mm",
-      "rawVariants": [
-        "200in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5156.2",
-      "label": "5156.2 mm",
-      "rawVariants": [
-        "203in ID"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "6096",
-      "label": "6096 mm",
-      "rawVariants": [
-        "240\"ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6502.4",
-      "label": "6502.4 mm",
-      "rawVariants": [
-        "256in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6604",
-      "label": "6604 mm",
-      "rawVariants": [
-        "260\"ID",
-        "260in ID"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "6731",
-      "label": "6731 mm",
-      "rawVariants": [
-        "265in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7137.4",
-      "label": "7137.4 mm",
-      "rawVariants": [
-        "281in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7645.4",
-      "label": "7645.4 mm",
-      "rawVariants": [
-        "301\" ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9779",
-      "label": "9779 mm",
-      "rawVariants": [
-        "385in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11125.2",
-      "label": "11125.2 mm",
-      "rawVariants": [
-        "438in ID"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "13487.4",
-      "label": "13487.4 mm",
-      "rawVariants": [
-        "531in ID",
-        "531\" ID"
-      ],
-      "count": 2
     }
   ],
   "outerDiameterMm": [
     {
-      "canonical": "4.4",
-      "label": "4.4 mm",
-      "rawVariants": [
-        "4.4mm OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "5",
-      "label": "5 mm",
-      "rawVariants": [
-        "5mm OD",
-        "5MM OD",
-        "5.0 mm OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "5.1",
-      "label": "5.1 mm",
-      "rawVariants": [
-        "5.1mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5.4",
-      "label": "5.4 mm",
-      "rawVariants": [
-        "5.4mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5.588",
-      "label": "5.588 mm",
-      "rawVariants": [
-        "0.220\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6",
-      "label": "6 mm",
-      "rawVariants": [
-        "6.0mm OD",
-        "6mm OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "6.2",
-      "label": "6.2 mm",
-      "rawVariants": [
-        "6.2mm OD",
-        "6.2 MM OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "6.35",
-      "label": "6.35 mm",
-      "rawVariants": [
-        "1/4\" OD",
-        "0.25\" OD",
-        "0.250in OD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "6.604",
-      "label": "6.604 mm",
-      "rawVariants": [
-        "0.26\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6.858",
-      "label": "6.858 mm",
-      "rawVariants": [
-        "0.27\" OD",
-        "0.27in OD"
-      ],
-      "count": 2
-    },
-    {
       "canonical": "7",
       "label": "7 mm",
       "rawVariants": [
-        "7.0mm OD",
         "7mm OD"
       ],
-      "count": 4
-    },
-    {
-      "canonical": "7.366",
-      "label": "7.366 mm",
-      "rawVariants": [
-        "0.29in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.442",
-      "label": "7.442 mm",
-      "rawVariants": [
-        "0.293in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.493",
-      "label": "7.493 mm",
-      "rawVariants": [
-        "0.295in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.6",
-      "label": "7.6 mm",
-      "rawVariants": [
-        "7.6mm OD",
-        "7.6 MM OD"
-      ],
       "count": 2
-    },
-    {
-      "canonical": "7.62",
-      "label": "7.62 mm",
-      "rawVariants": [
-        "0.3\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.9",
-      "label": "7.9 mm",
-      "rawVariants": [
-        "7.9mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "7.925",
-      "label": "7.925 mm",
-      "rawVariants": [
-        "0.312in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8",
-      "label": "8 mm",
-      "rawVariants": [
-        "8mm OD",
-        "8.0 mm OD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "8.128",
-      "label": "8.128 mm",
-      "rawVariants": [
-        "0.32\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.331",
-      "label": "8.331 mm",
-      "rawVariants": [
-        "0.328\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.636",
-      "label": "8.636 mm",
-      "rawVariants": [
-        "0.34\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8.8",
-      "label": "8.8 mm",
-      "rawVariants": [
-        "8.8mm OD"
-      ],
-      "count": 1
     },
     {
       "canonical": "9",
       "label": "9 mm",
       "rawVariants": [
-        "9.0mm OD",
-        "9mm OD",
-        "9MM OD"
-      ],
-      "count": 9
-    },
-    {
-      "canonical": "9.2",
-      "label": "9.2 mm",
-      "rawVariants": [
-        "9.2MM OD",
-        "9.2mm OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "9.3",
-      "label": "9.3 mm",
-      "rawVariants": [
-        "9.3mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9.398",
-      "label": "9.398 mm",
-      "rawVariants": [
-        "0.37in OD",
-        "0.370\"OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "9.525",
-      "label": "9.525 mm",
-      "rawVariants": [
-        "3/8\" OD",
-        "0.375in OD",
-        "0.375\" OD"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "9.652",
-      "label": "9.652 mm",
-      "rawVariants": [
-        "0.38 inch OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "9.9",
-      "label": "9.9 mm",
-      "rawVariants": [
-        "9.9mm OD"
+        "9mm OD"
       ],
       "count": 1
     },
@@ -2662,137 +607,7 @@
       "canonical": "10",
       "label": "10 mm",
       "rawVariants": [
-        "10mm OD",
-        "10MM OD"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "10.16",
-      "label": "10.16 mm",
-      "rawVariants": [
-        "0.40IN OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "10.319",
-      "label": "10.319 mm",
-      "rawVariants": [
-        "13/32in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11",
-      "label": "11 mm",
-      "rawVariants": [
-        "11MM OD",
-        "11mm OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "11.1",
-      "label": "11.1 mm",
-      "rawVariants": [
-        "11.1mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11.112",
-      "label": "11.112 mm",
-      "rawVariants": [
-        "7/16in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11.125",
-      "label": "11.125 mm",
-      "rawVariants": [
-        "0.438\"OD",
-        "0.438in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "11.43",
-      "label": "11.43 mm",
-      "rawVariants": [
-        "0.450in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11.8",
-      "label": "11.8 mm",
-      "rawVariants": [
-        "11.8mm OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "12",
-      "label": "12 mm",
-      "rawVariants": [
-        "12mm OD",
-        "12 mm OD",
-        "12.0mm OD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "12.7",
-      "label": "12.7 mm",
-      "rawVariants": [
-        "1/2\" OD",
-        "1/2in OD",
-        "0.500in OD",
-        "12.7mm OD",
-        "0.5\" OD"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "13",
-      "label": "13 mm",
-      "rawVariants": [
-        "13mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "14.275",
-      "label": "14.275 mm",
-      "rawVariants": [
-        "0.562in OD",
-        "0.562\" OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "14.288",
-      "label": "14.288 mm",
-      "rawVariants": [
-        "9/16\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "15",
-      "label": "15 mm",
-      "rawVariants": [
-        "15mm OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "15.062",
-      "label": "15.062 mm",
-      "rawVariants": [
-        "0.593in OD"
+        "10mm OD"
       ],
       "count": 1
     },
@@ -2800,670 +615,25 @@
       "canonical": "15.875",
       "label": "15.875 mm",
       "rawVariants": [
-        "5/8\" OD",
-        "5/8 inch OD",
-        "0.625in OD",
-        "0.625\"OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "16",
-      "label": "16 mm",
-      "rawVariants": [
-        "16.0mm OD",
-        "16mm OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "16.662",
-      "label": "16.662 mm",
-      "rawVariants": [
-        "0.656\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "17",
-      "label": "17 mm",
-      "rawVariants": [
-        "17MM OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "17.463",
-      "label": "17.463 mm",
-      "rawVariants": [
-        "11/16\"OD",
-        "11/16in OD",
-        "11/16 inch OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "17.475",
-      "label": "17.475 mm",
-      "rawVariants": [
-        "0.688\" OD",
-        "0.688in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "18",
-      "label": "18 mm",
-      "rawVariants": [
-        "18mm OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "18.1",
-      "label": "18.1 mm",
-      "rawVariants": [
-        "18.1mm OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "18.542",
-      "label": "18.542 mm",
-      "rawVariants": [
-        "0.730in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "18.999",
-      "label": "18.999 mm",
-      "rawVariants": [
-        "0.748\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "19.05",
-      "label": "19.05 mm",
-      "rawVariants": [
-        "3/4\" OD",
-        "0.750in OD",
-        "0.75\" OD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "20",
-      "label": "20 mm",
-      "rawVariants": [
-        "20mm OD",
-        "20MM OD"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "20.625",
-      "label": "20.625 mm",
-      "rawVariants": [
-        "0.812\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "21",
-      "label": "21 mm",
-      "rawVariants": [
-        "21MM OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "21.1",
-      "label": "21.1 mm",
-      "rawVariants": [
-        "21.1MM OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "21.167",
-      "label": "21.167 mm",
-      "rawVariants": [
-        "5/6in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "22.073",
-      "label": "22.073 mm",
-      "rawVariants": [
-        "0.869in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "22.225",
-      "label": "22.225 mm",
-      "rawVariants": [
-        "0.875in OD",
-        "0.875 in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "22.733",
-      "label": "22.733 mm",
-      "rawVariants": [
-        "0.895in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "24",
-      "label": "24 mm",
-      "rawVariants": [
-        "24mm OD",
-        "24MM OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "24.003",
-      "label": "24.003 mm",
-      "rawVariants": [
-        "0.945in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "25",
-      "label": "25 mm",
-      "rawVariants": [
-        "25MM OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "25.4",
-      "label": "25.4 mm",
-      "rawVariants": [
-        "1\" OD",
-        "1in OD",
-        "1.0\" OD"
-      ],
-      "count": 8
-    },
-    {
-      "canonical": "26.975",
-      "label": "26.975 mm",
-      "rawVariants": [
-        "1.062in OD",
-        "1.062\" OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "27.254",
-      "label": "27.254 mm",
-      "rawVariants": [
-        "1.073\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "31.75",
-      "label": "31.75 mm",
-      "rawVariants": [
-        "1-1/4\"OD",
-        "1.25\" OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "33.338",
-      "label": "33.338 mm",
-      "rawVariants": [
-        "1-5/16in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "37",
-      "label": "37 mm",
-      "rawVariants": [
-        "37MM OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "38.1",
-      "label": "38.1 mm",
-      "rawVariants": [
-        "1-1/2\"OD",
-        "1-1/2\" OD",
-        "1.5in OD",
-        "1.500 inch OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "44.45",
-      "label": "44.45 mm",
-      "rawVariants": [
-        "1-3/4\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "50.8",
-      "label": "50.8 mm",
-      "rawVariants": [
-        "2\" OD",
-        "2in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "76.2",
-      "label": "76.2 mm",
-      "rawVariants": [
-        "3 inch OD",
-        "3.0 in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "127",
-      "label": "127 mm",
-      "rawVariants": [
-        "5\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "533.4",
-      "label": "533.4 mm",
-      "rawVariants": [
-        "21\" OD",
-        "21in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "635",
-      "label": "635 mm",
-      "rawVariants": [
-        "25in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "787.4",
-      "label": "787.4 mm",
-      "rawVariants": [
-        "31\" OD",
-        "31in OD",
-        "31\"OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "838.2",
-      "label": "838.2 mm",
-      "rawVariants": [
-        "33in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "863.6",
-      "label": "863.6 mm",
-      "rawVariants": [
-        "34\" OD",
-        "34in OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "914.4",
-      "label": "914.4 mm",
-      "rawVariants": [
-        "36\" OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "965.2",
-      "label": "965.2 mm",
-      "rawVariants": [
-        "38in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "990.6",
-      "label": "990.6 mm",
-      "rawVariants": [
-        "39in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1193.8",
-      "label": "1193.8 mm",
-      "rawVariants": [
-        "47in OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1346.2",
-      "label": "1346.2 mm",
-      "rawVariants": [
-        "53in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1371.6",
-      "label": "1371.6 mm",
-      "rawVariants": [
-        "54in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1549.4",
-      "label": "1549.4 mm",
-      "rawVariants": [
-        "61 inch OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1752.6",
-      "label": "1752.6 mm",
-      "rawVariants": [
-        "69in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1930.4",
-      "label": "1930.4 mm",
-      "rawVariants": [
-        "76in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2082.8",
-      "label": "2082.8 mm",
-      "rawVariants": [
-        "082\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5308.6",
-      "label": "5308.6 mm",
-      "rawVariants": [
-        "209\"OD",
-        "209\" OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "7924.8",
-      "label": "7924.8 mm",
-      "rawVariants": [
-        "312\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8331.2",
-      "label": "8331.2 mm",
-      "rawVariants": [
-        "328in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8483.6",
-      "label": "8483.6 mm",
-      "rawVariants": [
-        "334\" OD",
-        "334in OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "9525",
-      "label": "9525 mm",
-      "rawVariants": [
-        "375in OD",
-        "375\" OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "11099.8",
-      "label": "11099.8 mm",
-      "rawVariants": [
-        "437\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11125.2",
-      "label": "11125.2 mm",
-      "rawVariants": [
-        "438in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "11252.2",
-      "label": "11252.2 mm",
-      "rawVariants": [
-        "443\"OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "12141.2",
-      "label": "12141.2 mm",
-      "rawVariants": [
-        "478in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "12369.8",
-      "label": "12369.8 mm",
-      "rawVariants": [
-        "487\" OD",
-        "487\"OD",
-        "487in OD"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "12827",
-      "label": "12827 mm",
-      "rawVariants": [
-        "505\"OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "14274.8",
-      "label": "14274.8 mm",
-      "rawVariants": [
-        "562\" OD",
-        "562in OD"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "14808.2",
-      "label": "14808.2 mm",
-      "rawVariants": [
-        "583\" OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "15316.2",
-      "label": "15316.2 mm",
-      "rawVariants": [
-        "603\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "15875",
-      "label": "15875 mm",
-      "rawVariants": [
-        "625in OD"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "17272",
-      "label": "17272 mm",
-      "rawVariants": [
-        "680\" OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "17449.8",
-      "label": "17449.8 mm",
-      "rawVariants": [
-        "687in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "17475.2",
-      "label": "17475.2 mm",
-      "rawVariants": [
-        "688in OD"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "23799.8",
-      "label": "23799.8 mm",
-      "rawVariants": [
-        "937IN OD"
+        "0.625in OD"
       ],
       "count": 1
     }
   ],
   "thicknessMm": [
     {
-      "canonical": "0.2",
-      "label": "0.2 mm",
-      "rawVariants": [
-        "0.20mm Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "0.254",
-      "label": "0.254 mm",
-      "rawVariants": [
-        "0.01 in Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "0.35",
-      "label": "0.35 mm",
-      "rawVariants": [
-        "0.35mm Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "0.4",
-      "label": "0.4 mm",
-      "rawVariants": [
-        "0.4mm Thk"
-      ],
-      "count": 1
-    },
-    {
       "canonical": "0.5",
       "label": "0.5 mm",
       "rawVariants": [
         "0.5mm THK"
       ],
-      "count": 1
-    },
-    {
-      "canonical": "0.508",
-      "label": "0.508 mm",
-      "rawVariants": [
-        "0.020\" Thick",
-        "0.02\" THICK"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "0.64",
-      "label": "0.64 mm",
-      "rawVariants": [
-        "0.64mm Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "0.762",
-      "label": "0.762 mm",
-      "rawVariants": [
-        "0.03\" Thick",
-        "0.03\" THICK",
-        "0.03 inch Thick"
-      ],
-      "count": 3
+      "count": 2
     },
     {
       "canonical": "0.8",
       "label": "0.8 mm",
       "rawVariants": [
-        "0.8mm Thick",
-        "0.8 MM THK"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "0.813",
-      "label": "0.813 mm",
-      "rawVariants": [
-        "0.032\" THK",
-        "0.032\"THK"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "0.9",
-      "label": "0.9 mm",
-      "rawVariants": [
-        "0.9 MM THK",
-        "0.9 mm Thickness"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "0.94",
-      "label": "0.94 mm",
-      "rawVariants": [
-        "0.037\" Thickness"
+        "0.8mm THK"
       ],
       "count": 1
     },
@@ -3471,535 +641,9 @@
       "canonical": "1",
       "label": "1 mm",
       "rawVariants": [
-        "1mm Thk",
-        "1mm THK",
-        "1mm Thick"
-      ],
-      "count": 6
-    },
-    {
-      "canonical": "1.016",
-      "label": "1.016 mm",
-      "rawVariants": [
-        "0.040\"Thick",
-        "0.040in Thk",
-        "0.04\" THK"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "1.1",
-      "label": "1.1 mm",
-      "rawVariants": [
-        "1.1mm Thk",
-        "1.1mm Thickness"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1.13",
-      "label": "1.13 mm",
-      "rawVariants": [
-        "1.130mm Thk"
+        "1mm THK"
       ],
       "count": 1
-    },
-    {
-      "canonical": "1.194",
-      "label": "1.194 mm",
-      "rawVariants": [
-        "0.047\" Thick"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1.2",
-      "label": "1.2 mm",
-      "rawVariants": [
-        "1.2mm Thk",
-        "1.2mm Thick"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "1.3",
-      "label": "1.3 mm",
-      "rawVariants": [
-        "1.3mm Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.4",
-      "label": "1.4 mm",
-      "rawVariants": [
-        "1.4mm Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.575",
-      "label": "1.575 mm",
-      "rawVariants": [
-        "0.062\" Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.6",
-      "label": "1.6 mm",
-      "rawVariants": [
-        "1.6mm Thk",
-        "1.6MM THK"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "1.7",
-      "label": "1.7 mm",
-      "rawVariants": [
-        "1.7mm Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.778",
-      "label": "1.778 mm",
-      "rawVariants": [
-        "0.07in Thk",
-        "0.070\" Thick"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1.8",
-      "label": "1.8 mm",
-      "rawVariants": [
-        "1.8mm Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1.9",
-      "label": "1.9 mm",
-      "rawVariants": [
-        "1.9mm Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2",
-      "label": "2 mm",
-      "rawVariants": [
-        "2mm Thk",
-        "2mm Thickness"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "2.032",
-      "label": "2.032 mm",
-      "rawVariants": [
-        "0.08\" Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.2",
-      "label": "2.2 mm",
-      "rawVariants": [
-        "2.2mm Thick"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2.362",
-      "label": "2.362 mm",
-      "rawVariants": [
-        "0.093\"Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.4",
-      "label": "2.4 mm",
-      "rawVariants": [
-        "2.4mm Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.5",
-      "label": "2.5 mm",
-      "rawVariants": [
-        "2.5MM THK"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2.845",
-      "label": "2.845 mm",
-      "rawVariants": [
-        "0.112in Thickness"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2.9",
-      "label": "2.9 mm",
-      "rawVariants": [
-        "2.9mm Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3",
-      "label": "3 mm",
-      "rawVariants": [
-        "3mm Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.175",
-      "label": "3.175 mm",
-      "rawVariants": [
-        "1/8in Thk",
-        "0.125in Thk",
-        "0.125in Thickness"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "3.9",
-      "label": "3.9 mm",
-      "rawVariants": [
-        "3.9mm Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "3.962",
-      "label": "3.962 mm",
-      "rawVariants": [
-        "0.156in Thickness"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "5",
-      "label": "5 mm",
-      "rawVariants": [
-        "5mm Thk",
-        "5mm thk"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "6",
-      "label": "6 mm",
-      "rawVariants": [
-        "06MM THK"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "6.35",
-      "label": "6.35 mm",
-      "rawVariants": [
-        "0.25in Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "8",
-      "label": "8 mm",
-      "rawVariants": [
-        "8mm Thk"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "50.8",
-      "label": "50.8 mm",
-      "rawVariants": [
-        "02\" Thk",
-        "02in Thick"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "76.2",
-      "label": "76.2 mm",
-      "rawVariants": [
-        "03in Thick"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "101.6",
-      "label": "101.6 mm",
-      "rawVariants": [
-        "04\" Thk",
-        "04in Thk",
-        "04in Thickness",
-        "04 inch Thick"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "127",
-      "label": "127 mm",
-      "rawVariants": [
-        "05in Thk",
-        "05in Thickness",
-        "05in THK"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "152.4",
-      "label": "152.4 mm",
-      "rawVariants": [
-        "06\" Thick",
-        "06 in Thick"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "177.8",
-      "label": "177.8 mm",
-      "rawVariants": [
-        "07\" Thick",
-        "07\" Thk",
-        "07in Thk"
-      ],
-      "count": 4
-    },
-    {
-      "canonical": "203.2",
-      "label": "203.2 mm",
-      "rawVariants": [
-        "08\" THICK",
-        "08in Thk",
-        "08 inch Thick",
-        "08 in Thick"
-      ],
-      "count": 7
-    },
-    {
-      "canonical": "228.6",
-      "label": "228.6 mm",
-      "rawVariants": [
-        "09in Thick",
-        "09in THK"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "254",
-      "label": "254 mm",
-      "rawVariants": [
-        "10in Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "279.4",
-      "label": "279.4 mm",
-      "rawVariants": [
-        "11\" Thick",
-        "11in Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "355.6",
-      "label": "355.6 mm",
-      "rawVariants": [
-        "14in Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "406.4",
-      "label": "406.4 mm",
-      "rawVariants": [
-        "16\" Thick",
-        "016\" Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "457.2",
-      "label": "457.2 mm",
-      "rawVariants": [
-        "018\" Thk",
-        "18in Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "635",
-      "label": "635 mm",
-      "rawVariants": [
-        "025\" Thk",
-        "025in Thk"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "787.4",
-      "label": "787.4 mm",
-      "rawVariants": [
-        "031\" thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "812.8",
-      "label": "812.8 mm",
-      "rawVariants": [
-        "032in Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1016",
-      "label": "1016 mm",
-      "rawVariants": [
-        "040in Thick",
-        "040in Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1066.8",
-      "label": "1066.8 mm",
-      "rawVariants": [
-        "042in THK"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1143",
-      "label": "1143 mm",
-      "rawVariants": [
-        "045IN THICK"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1193.8",
-      "label": "1193.8 mm",
-      "rawVariants": [
-        "047\"Thk",
-        "047in Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1295.4",
-      "label": "1295.4 mm",
-      "rawVariants": [
-        "051\" Thick"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1397",
-      "label": "1397 mm",
-      "rawVariants": [
-        "055\" Thk",
-        "055\" Thick",
-        "055\"Thk"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "1447.8",
-      "label": "1447.8 mm",
-      "rawVariants": [
-        "057in Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1524",
-      "label": "1524 mm",
-      "rawVariants": [
-        "060\"Thk",
-        "060\" Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "1574.8",
-      "label": "1574.8 mm",
-      "rawVariants": [
-        "062\" Thick",
-        "062in Thk",
-        "062\" thick"
-      ],
-      "count": 5
-    },
-    {
-      "canonical": "1651",
-      "label": "1651 mm",
-      "rawVariants": [
-        "065\" Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "1752.6",
-      "label": "1752.6 mm",
-      "rawVariants": [
-        "069\"Thk",
-        "069\" Thk"
-      ],
-      "count": 3
-    },
-    {
-      "canonical": "1828.8",
-      "label": "1828.8 mm",
-      "rawVariants": [
-        "072\"Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2032",
-      "label": "2032 mm",
-      "rawVariants": [
-        "080\" Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2362.2",
-      "label": "2362.2 mm",
-      "rawVariants": [
-        "093\" THK",
-        "093in Thk"
-      ],
-      "count": 2
-    },
-    {
-      "canonical": "2413",
-      "label": "2413 mm",
-      "rawVariants": [
-        "095in Thk"
-      ],
-      "count": 1
-    },
-    {
-      "canonical": "2641.6",
-      "label": "2641.6 mm",
-      "rawVariants": [
-        "104in Thk"
-      ],
-      "count": 2
     }
   ]
 }

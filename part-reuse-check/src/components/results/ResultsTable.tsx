@@ -40,27 +40,20 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
     });
   }
 
-  // The "You asked" header row — show the engineer's value for each column cell.
-  function askedCell(col: StepDefinition) {
+  function askedLabel(col: StepDefinition): { text: string; cls: string } {
     const a = state.query.answers[col.key];
-    if (!a || a.state === 'pending') {
-      return <span className="cell-aux">—</span>;
-    }
-    if (a.state === 'skipped') {
-      return <span className="cell-aux">skipped</span>;
-    }
-    return (
-      <strong className="cell-asked">
-        {formatValue(a.value as any, col.unit)}
-      </strong>
-    );
+    if (!a || a.state === 'pending') return { text: 'not asked', cls: 'ask-none' };
+    if (a.state === 'skipped')      return { text: 'skipped',   cls: 'ask-skip' };
+    return {
+      text: formatValue(a.value as any, col.unit),
+      cls: 'ask-set',
+    };
   }
 
-  function dataCell(result: MatchResult, col: StepDefinition) {
+  function cellFor(result: MatchResult, col: StepDefinition) {
     const asked = state.query.answers[col.key];
     const found = (result.part.attributes as any)[col.key] as string | number | null;
     const cmp = compareAttribute(col.key as AttributeKey, asked, found);
-    const classes = `tdcell td-${cmp.verdict}`;
     const marker =
       cmp.verdict === 'match'
         ? '✓'
@@ -70,20 +63,20 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
         ? '?'
         : '·';
     const display =
-      cmp.verdict === 'unknown'
-        ? 'unknown'
-        : formatValue(found, col.unit);
+      cmp.verdict === 'unknown' ? 'unknown' : formatValue(found, col.unit);
     return (
       <td
         key={col.key as string}
-        className={classes}
-        title={`${col.prompt} — ${display}`}
+        className={`rt-cell rt-${cmp.verdict}`}
+        title={`${col.prompt.replace(/\?$/, '')} — ${display}`}
       >
-        <span className="tdmark" aria-hidden="true">{marker}</span>
-        <span className="tdval">{display}</span>
+        <span className="rt-mark" aria-hidden="true">{marker}</span>
+        <span className="rt-val">{display}</span>
       </td>
     );
   }
+
+  const totalCols = 4 + columns.length + 1;
 
   return (
     <div className="results-table-wrap">
@@ -94,35 +87,32 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
             <th className="col-gpn">GPN</th>
             <th className="col-verdict">Verdict</th>
             <th className="col-phase">Phase</th>
-            {columns.map((c) => (
-              <th key={c.key as string} className="col-attr" scope="col">
-                <div className="th-prompt">{c.prompt.replace(/\?$/, '')}</div>
-                {c.unit === 'mm' ? (
-                  <div className="th-unit">mm</div>
-                ) : null}
-              </th>
-            ))}
+            {columns.map((c) => {
+              const ask = askedLabel(c);
+              return (
+                <th
+                  key={c.key as string}
+                  className={`col-attr ${ask.cls}`}
+                  scope="col"
+                >
+                  <div className="th-prompt">{c.prompt.replace(/\?$/, '')}</div>
+                  <div className={`th-asked th-${ask.cls}`}>
+                    <span className="th-asked-kicker">you asked</span>
+                    <span className="th-asked-val">
+                      {ask.text}
+                      {ask.cls === 'ask-set' && c.unit === 'mm' ? '' : ''}
+                    </span>
+                  </div>
+                </th>
+              );
+            })}
             <th className="col-expand" aria-label="Expand" />
-          </tr>
-          <tr className="row-asked">
-            <td className="col-check" />
-            <td className="col-gpn">
-              <span className="asked-label">You asked</span>
-            </td>
-            <td className="col-verdict">—</td>
-            <td className="col-phase">—</td>
-            {columns.map((c) => (
-              <td key={c.key as string} className="col-attr col-attr-asked">
-                {askedCell(c)}
-              </td>
-            ))}
-            <td className="col-expand" />
           </tr>
         </thead>
         <tbody>
           {rows.length === 0 ? (
             <tr>
-              <td colSpan={5 + columns.length} className="empty-cell">
+              <td colSpan={totalCols} className="empty-cell">
                 No matches or review candidates. Try loosening a step —
                 pitch, finish, or integral washer are stated by only a
                 minority of records.
@@ -141,18 +131,14 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
                   }`}
                 >
                   <td className="col-check">
-                    <label>
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() =>
-                          dispatch({ type: 'TOGGLE_COMPARE', gpn: r.part.gpn })
-                        }
-                      />
-                      <span className="visually-hidden">
-                        Compare {r.part.gpn}
-                      </span>
-                    </label>
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      aria-label={`Select ${r.part.gpn} for compare`}
+                      onChange={() =>
+                        dispatch({ type: 'TOGGLE_COMPARE', gpn: r.part.gpn })
+                      }
+                    />
                   </td>
                   <td className="col-gpn">
                     <button
@@ -175,21 +161,21 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
                     <VerdictBadge verdict={r.verdict} />
                   </td>
                   <td className="col-phase">{r.part.phase}</td>
-                  {columns.map((c) => dataCell(r, c))}
+                  {columns.map((c) => cellFor(r, c))}
                   <td className="col-expand">
                     <button
                       className="expand-btn"
                       onClick={() => toggle(r.part.gpn)}
                       aria-expanded={isExpanded}
-                      aria-label={isExpanded ? 'Collapse' : 'Expand'}
+                      aria-label={isExpanded ? 'Collapse' : 'Expand details'}
                     >
-                      {isExpanded ? '▴' : '▾'}
+                      {isExpanded ? '−' : '+'}
                     </button>
                   </td>
                 </tr>
                 {isExpanded ? (
                   <tr className="row-detail">
-                    <td colSpan={5 + columns.length}>
+                    <td colSpan={totalCols}>
                       <div className="detail-grid">
                         <div className="detail-desc">
                           <h4>Description</h4>
@@ -253,14 +239,13 @@ export function ResultsTable({ rows, columns, clustersByGpn }: Props) {
                       {myClusters.map((c) => (
                         <DuplicateNotice key={c.id} cluster={c} />
                       ))}
-                      {r.verdict === 'review' &&
-                      r.unknownKeys.length > 0 ? (
+                      {r.verdict === 'review' && r.unknownKeys.length > 0 ? (
                         <p className="detail-unknowns">
                           <strong>Why "needs review":</strong>{' '}
                           {r.unknownKeys.length} attribute
                           {r.unknownKeys.length === 1 ? '' : 's'} you asked
                           about {r.unknownKeys.length === 1 ? 'is' : 'are'} not
-                          stated in the description:{' '}
+                          stated in the description —{' '}
                           {r.unknownKeys
                             .map((k) => labelFor(k as AttributeKey))
                             .join(', ')}
